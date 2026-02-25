@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Bhadrakali Tour Corporations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .banner-img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      display: block;
+      border-radius: 0;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      background: #ffffff;
+      padding: 12px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar a {
+      position: relative;
+      margin: 0 15px;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 17px;
+      color: #2c3e50;
+      background: #f0f0f0;
+      border-radius: 12px;
+      transition: all 0.4s ease;
+    }
+
+    .navbar a::before {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      width: 0%;
+      height: 3px;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      transition: width 0.4s ease, left 0.4s ease;
+    }
+
+    .navbar a:hover::before,
+    .navbar a.active::before {
+      width: 100%;
+      left: 0;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #fff;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      box-shadow:none;
+      transform: translateY(-3px);
+    }
+    }
+body {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: black;
+}
+.navbar {
+  
+  backdrop-filter: blur(12px);
+}
+.navbar a {
+  color: black;
+}
+
+    .content {
+      padding: 30px 20px;
+      line-height: 1.8;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .content h3 {
+      font-size: 22px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .ban-img {
+      width: 100%;
+      max-height: 650px;
+      object-fit: cover;
+      display: block;
+      border-radius: 10px;
+      margin: auto;
+    }
+.centered-text {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  margin: 30px auto;
+  max-width: 900px;
+  line-height: 1.9;
+}
+
+.decor-line {
+  width: 60px;
+  height: 4px;
+  background-color: #00bcd4;
+  margin: 30px auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.decor-line::before,
+.decor-line::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: #00bcd4;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.decor-line::before {
+  left: -40px;
+}
+
+.decor-line::after {
+  right: -40px;
+}
+
+
+    .social-banner-vertical {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: skyblue;
+      color: black;
+      padding: 30px 20px;
+      gap: 20px;
+      width: 100vw;
+      min-height: 100vh;
+      margin-top: 40px;
+    }
+
+    .social-banner-vertical a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .social-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .social-item i {
+      font-size: 28px;
+    }
+
+    .social-item:hover {
+      transform: translateX(5px);
+      opacity: 0.85;
+    }
+
+    @media (max-width: 768px) {
+      .banner-img,
+      .ban-img {
+        max-height: 280px;
+      }
+
+      .navbar {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .navbar a {
+        padding: 10px;
+      }
+
+      .content h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Image (no space above) -->
+  <img src="img.png" class="banner-img" alt="Banner Image">
+
+  <!-- Clean navbar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="service.html">Services</a>
+    <a href="about.html">About Us</a>
+  </div>
+
+  <!-- Second scenic image -->
+  <img src="img11.jpg" class="ban-img" alt="Scenic Image">
+<!-- Content section -->
+  <div class="content">
+  <div class="decor-line"></div>
+  <p class="centered-text">
+    Welcome to BTC,we help you to explore the scenic beauty of Himachal Pradesh! Discover a region where vibrant culture meets breathtaking landscapes.
+ Explore ancient temples, hike through lush valleys, and experience the warmth of local hospitality. Whether you seek adventure or tranquility, 
+(H.P) offers an unforgettable escape.
+ Come, create lasting memories in our serene paradise. 
+
+  <p class="centered-text">
+    Till 19th century, Tourism in Himachal Pradesh was restricted only to a limited movement of pilgrims to a few spiritual destinations in around the hills.
+    Only when the British established their chain of hill stations did tourism receive recognition in the State.
+    Tourism activity received a shot in the arm when British declared Shimla “The Summer Capital of India” in 1864.
+    Post independence, more investment in the infrastructure sector led to opening up of Tourism in the State.
+    However the biggest boost to tourism occurred in the mid 80s and 90s.
+  </p>
+  <div class="decor-line"></div>
+
+  <p class="centered-text">
+    While traditionally Himachal was known as a summer destination, the Department of Tourism & Civil Aviation has taken special efforts to break the seasonality factor
+    and has developed diversified tourism products to attract tourists in other seasons too.
+    Now Himachal is known as “A Destination for All Seasons and All Reasons”.
+    <br><br>
+    In fact, the Department has laid a special emphasis on the development of activity-based tourism and opening up of new sub destinations.
+    To promote tourism in the countryside and to unexplored areas, appropriate infrastructure is being developed within available resources.
+    By focussing on quality tourists, the Department aims at promoting sustainable tourism and encouraging private sector to develop tourism related infrastructure in the State without disturbing the existing ecology and environment.
+  </p>
+</div>
+
+
+  <div class="social-banner-vertical">
+    <a href="https://www.facebook.com/share/1CAr3ARFF8/" target="_blank" class="social-item">
+      <i class="fab fa-facebook-f"></i>
+      <span>Like Us On Facebook</span>
+    </a>
+    <a href="https://instagram.com/_the_btc" target="_blank" class="social-item">
+      <i class="fab fa-instagram"></i>
+      <span>Follow Us On Instagram</span>
+    </a>
+    <a href="https://twitter.com/BTC1655" target="_blank" class="social-item">
+      <i class="fab fa-twitter"></i>
+      <span>Follow Us On Twitter</span>
+    </a>
+    <a href="https://wa.me/9816994537" target="-blank" class="social-item">
+      <i class="fab fa-whatsapp"></i>
+      <span>Chat On WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Auto-highlight active nav link -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname;
+      const currentPage = currentPath.substring(currentPath.lastIndexOf("/") + 1) || "index.html";
+      const navLinks = document.querySelectorAll(".navbar a");
+
+      navLinks.forEach(link => {
+        const href = link.getAttribute("href");
+        if (href === currentPage || (currentPage === "" && href === "index.html")) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

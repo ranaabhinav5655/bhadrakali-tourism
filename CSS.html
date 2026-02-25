@@ -1,0 +1,238 @@
+<!-- Paste this code in place of your existing HTML, or save as index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BTC Holiday Packages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://c1.wallpaperflare.com/preview/142/913/158/spiti-himachal-pradesh-india-himalayas.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .banner-img {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .navbar {
+      background-color: white;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 2px solid #ddd;
+      flex-wrap: wrap;
+    }
+
+    .navbar a {
+      color: #222;
+      text-decoration: none;
+      padding: 18px 20px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      background-color: skyblue;
+      color: white;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 42px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .packages {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: white;
+      color: black;
+      border-radius: 30px;
+      width: 260px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .card h3 {
+      margin-top: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 6px 0;
+    }
+
+    .highlights,
+    .book-section {
+      font-size: 13px;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: skyblue;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1e90ff;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 18px;
+      color: yellow;
+      margin-top: 40px;
+    }
+
+    .social-banner-vertical {
+      background-color: skyblue;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .social-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      transition: 0.3s ease;
+      text-decoration: none;
+      color: black;
+    }
+
+    .social-item i {
+      font-size: 24px;
+    }
+
+    .social-item:hover {
+      transform: translateX(6px);
+      opacity: 0.85;
+    }
+
+    @media (max-width: 768px) {
+      .title {
+        font-size: 30px;
+      }
+
+      .card {
+        width: 90%;
+      }
+
+      .banner-img {
+        max-height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="img.png" class="banner-img" alt="Banner Image">
+
+  <div class="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="service.html">Services</a>
+    <a href="about.html">About Us</a>
+  </div>
+
+  <div class="container">
+    <div class="title">BTC Holiday Packages</div>
+    <div class="packages">
+      <!-- Your 4 tour cards: SPITI, MANALI, CHAMBA, KINNAUR -->
+      <!-- Use your exact card HTML from above here -->
+      <!-- They are already styled in BTC format -->
+    </div>
+    <div class="footer">
+      Attractive Offers!!<br>
+      <em>*Customize Your Own Tour*</em>
+    </div>
+  </div>
+
+  <div class="social-banner-vertical">
+    <a href="https://facebook.com" target="_blank" class="social-item">
+      <i class="fab fa-facebook-f"></i><span>Like Us On Facebook</span>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="social-item">
+      <i class="fab fa-instagram"></i><span>Follow Us On Instagram</span>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="social-item">
+      <i class="fab fa-twitter"></i><span>Follow Us On Twitter</span>
+    </a>
+    <a href="https://youtube.com" target="_blank" class="social-item">
+      <i class="fab fa-youtube"></i><span>Subscribe On YouTube</span>
+    </a>
+    <a href="https://wa.me/919418194537" target="_blank" class="social-item">
+      <i class="fab fa-whatsapp"></i><span>Chat On WhatsApp</span>
+    </a>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname;
+      const currentPage = currentPath.substring(currentPath.lastIndexOf("/") + 1) || "index.html";
+      const navLinks = document.querySelectorAll(".navbar a");
+
+      navLinks.forEach(link => {
+        const href = link.getAttribute("href");
+        if (href === currentPage || (currentPage === "" && href === "index.html")) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
